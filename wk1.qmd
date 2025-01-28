@@ -1,0 +1,13 @@
+---
+title: "Wk1"
+format: html
+editor: visual
+---
+
+
+```{r}
+#| include = FALSE
+
+library(tidyverse)
+library(palmerpenguins)
+```
