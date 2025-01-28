@@ -10,4 +10,16 @@ editor: visual
 
 library(tidyverse)
 library(palmerpenguins)
+library(ggplot2)
+```
+
+```{r}
+#used to check what the coloumn names are
+colnames(penguins)
+#making the graph
+penguin_graph<- ggplot(penguins, aes(flipper_length_mm, body_mass_g, colour = species)) +
+  geom_point() +
+  theme_bw() 
+  
+print(penguin_graph)
 ```
